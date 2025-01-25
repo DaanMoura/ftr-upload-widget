@@ -52,7 +52,7 @@ export async function getUploads(
         return desc(fields[sortBy])
       }
 
-      return asc(fields.id)
+      return desc(fields.id)
     })
     .offset((page - 1) * pageSize)
     .limit(pageSize)
