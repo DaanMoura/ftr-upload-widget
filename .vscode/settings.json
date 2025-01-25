@@ -17,5 +17,5 @@
   },
   "editor.codeActionsOnSave": {
     "source.organizeImports.enabled": "explicit"
-  }
+  },
 }
