@@ -35,7 +35,7 @@ export async function uploadImage(
   await db.insert(schema.uploads).values({
     name: fileName,
     remoteKey: key,
-    remoteUrl: fileName,
+    remoteUrl: url,
   })
 
   return makeRight({ url })
